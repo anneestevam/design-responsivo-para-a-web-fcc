@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Formulário de Pesquisa</title>
+    </head>
+    <body>
+        <div class="secao-formulario">
+            <h1 id="title">Central Esportes</h1>
+            <p id="description">Esta enquete busca nos aproximar dos ciclistas da região.</p>
+            <form id="survey-form">
+                <div class="dados-principais">
+                    <label for="name" id="name-label">Nome <input id="name" type="text" value="name" placeholder="Insira seu nome" required></label>
+                    <label for="email" id="email-label">E-mail <input id="email" type="email" value="email" placeholder="Insira seu email" required></label>
+                    <label for="number" id="number-label">Idade <input type="number" id="number" value="number" min="12" max="120" placeholder="Idade"></label>
+                </div>
+                <div class="secao-select">
+                    <label>Qual modalidade de ciclismo você mais pratica?</labeL>
+                    <select id="dropdown">
+                        <option value="">Selecione</option>
+                        <option value="1">Mountain bike</option>
+                        <option value="2">Ciclismo de estrada</option>
+                    </select>
+                </div>
+                <div class="secao-sn">
+                    <label>Você faz parte de algum grupo?</label>
+                    <label><input type="radio" name="radio" value="radio"> Sim</label>
+                    <label><input type="radio" name="radio" value="radio"> Não</label>
+                </div>
+                <div class="secao-objetivos">
+                    <label>Quais seus objetivos com o ciclismo?</label>
+                    <label><input type="checkbox" value="checkbox"> Ganhar condicionamento físico</label>
+                    <label><input type="checkbox" value="checkbox"> Perde peso</label>
+                    <label><input type="checkbox" value="checkbox"> Fazer novos amigos</label>
+                    <label><input type="checkbox" value="checkbox"> Conhecer novos lugares</label>
+                    <label><input type="checkbox" value="checkbox"> Participar de provas</label>
+                </div>
+                <div class="secao-sugestao">
+                    <label>Algum comentário ou sugestão?</label>
+                    <textarea value="mensagem"></textarea>
+                </div>
+                <div class="botao"><input type="submit" id="submit" value="Enviar"></div>
+            </form>
+        </div>
+    </body>
+</html>
