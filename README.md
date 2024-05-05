@@ -7,3 +7,4 @@ Projetos realizados:
 - Página de tributo - página de tributo criada sobre a Marie Curie.
 - Documentação técnica - Para este projeto foi criada uma página de documentação técnica para servir como referência ou instrução para um tópico.
 Para este projeto foi criada uma página de documentação técnica para servir como referência ou instrução para um tópico.
+- Página inicial de um produto - para este projeto foi feita a página inicial de um produto, eu escolhi fazer sobre a Langtu e seu teclado Langtu GK65.
