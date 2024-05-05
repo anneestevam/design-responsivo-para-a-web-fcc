@@ -46,6 +46,10 @@ margin: 15px 0;
 text-align: justify;
 }
 
+.secao-variaveis {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
 code {
 display: block;
 background-color: #EEEEEE;
@@ -54,8 +58,22 @@ font-size: 14px;
 font-style: italic;
 }
 
+code span {
+    display: block;
+    background-color: #EEEEEE;
+    text-indent: 2em;
+    font-size: 14px;
+    font-style: italic;
+    }
+
 ul {
 margin-left: 40px;
+}
+
+
+.fontes a {
+    font-style: italic;
+    font-size: 14px;
 }
 
 @media (max-width: 769px) {
