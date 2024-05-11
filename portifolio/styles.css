@@ -114,11 +114,14 @@ body {
 
 .box-redes {
     padding: 0 20px;
+    display: flex;
+    align-items: center;
 }
 
 .box-redes img {
     width: 40px;
     height: auto;
+    margin-right: 5px;
 }
 
 .box-redes a {
@@ -189,10 +192,6 @@ footer {
         padding-top: 20px;
     }
 
-    .box-redes {
-        display: flex;
-        align-items: center;
-    }
 
     footer p {
         font-size: 1.2em;
@@ -201,6 +200,113 @@ footer {
 
 @media (min-width: 375px) and (max-width: 768px) {
     body {
-        width: 90%;
+        width: 100%;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #navbar a {
+        font-size: 2.2em;
+        padding: 10px 0;
+    }
+
+    #inicio {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #inicio h1 {
+        font-size: 5.5em;
+        align-items: center;
+    }
+
+    #inicio p {
+        font-size: 4em;
+    }
+
+    #projects {
+        margin: 0 auto;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #projects h2 {
+        width: 80%;
+        font-size: 3.2em;
+        text-align: center;
+    }
+    
+    .box-projetos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .project-tile {
+        padding: 10px 0;
+    }
+    
+    .project-tile img {
+        width: 800px;
+        height: auto;
+        padding: 0 15px;
+    }
+
+    #contato {
+        padding: 90px 0;
+        margin: 0 auto;
+        color: var(--cor1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #contato h2 {
+        font-size: 3.2em;
+        padding: 15px;
+    }
+    
+    #contato p {
+        width: 80%;
+        font-size: 2.8em;
+        text-align: center;
+        padding: 30px 0;
+        margin-bottom: 20px;
+    }
+
+    .redes-sociais {
+        display: flex;
+        align-items: center;
+    }
+    
+    .box-redes {
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .box-redes img {
+        width: 90px;
+        height: auto;
+        margin-right: 5px;
+    }
+    
+    .box-redes a {
+        text-decoration: none;
+        color: var(--cor1);
+        font-weight: bold;
+        font-size: 2.2em;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 2.2em;
     }
 }
